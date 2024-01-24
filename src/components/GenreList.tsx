@@ -10,7 +10,7 @@ interface GenreListProps {
 
 const GenreList = ({ selectedGenre, onSelectGenre } : GenreListProps) => {
   const { data, isLoading, error } = useGenres();
-  const skeletons: number[] = Array.from(Array(14).keys());
+  const skeletons: number[] = Array.from(Array(15).keys());
   if (error) return null;
 
   return (
