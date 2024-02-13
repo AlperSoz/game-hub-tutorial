@@ -26,3 +26,5 @@ dist-ssr
 .gitignore
 package-lock.json
 package.json
+
+.vercel
